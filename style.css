@@ -1,3 +1,11 @@
-h1 {
-   color: navy;
+.container-global {
+   flex-direction: column;
+   text-align: center;
+   padding: 64px;
+}
+
+.container-times {
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
 }
