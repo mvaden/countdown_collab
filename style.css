@@ -1,11 +1,36 @@
+:root {
+   --full: 100%;
+   --vh-cont-padding: 2rem 0; 
+}
+
+body, 
+html {
+   height: var(--full);
+   margin: 0;
+   padding: 0;
+   width: var(--full);
+}
+
 .container-global {
+   align-items: center;
+   display: flex;
    flex-direction: column;
+   height: var(--full);
    text-align: center;
-   padding: 64px;
+   width: var(--full);
 }
 
 .container-times {
    display: flex;
-   justify-content: center;
    justify-content: space-evenly;
+   padding: var(--vh-cont-padding);
+}
+
+.date-data {
+   padding: 0 0.5rem;
+}
+
+.page-wrapper {
+   max-width: 50rem;
+   padding-top: 5rem;
 }
