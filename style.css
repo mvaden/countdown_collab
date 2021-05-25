@@ -26,6 +26,10 @@ html {
    padding: var(--vh-cont-padding);
 }
 
+.container-vector {
+   padding: var(--vh-cont-padding);
+}
+
 .date-data {
    padding: 0 0.5rem;
 }
