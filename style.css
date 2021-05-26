@@ -26,6 +26,7 @@ html {
    padding: var(--vh-cont-padding);
 }
 
+.container-form,
 .container-vector {
    padding: var(--vh-cont-padding);
 }
